@@ -23,7 +23,7 @@ class App extends Component {
             <Link to="/events">Events</Link>
         </nav>
         
-        <Route exact path='/' component={ReadOnly}/>
+        <Route path='/' component={ReadOnly}/>
         <Route path='/readonly' component={ReadOnly}/>
         <Route path='/one-way-binding' component={OneWayBinding}/>
         <Route path='/two-way-binding' component={TwoWayBinding}/>
